@@ -21,6 +21,7 @@
 		D51C149B214F79CB00A4E7A6 /* SwiftyJSON.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D51C1495214F79BB00A4E7A6 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D51C14A1214F7A1B00A4E7A6 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51C14A0214F7A1B00A4E7A6 /* Extras.swift */; };
 		D51C14A4214F7A2C00A4E7A6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51C14A3214F7A2C00A4E7A6 /* Extensions.swift */; };
+		D58700A6214F7D850052CFE7 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58700A5214F7D850052CFE7 /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		D51C1496214F79BB00A4E7A6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
 		D51C14A0214F7A1B00A4E7A6 /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
 		D51C14A3214F7A2C00A4E7A6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D58700A5214F7D850052CFE7 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 		D51C149C214F79EA00A4E7A6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D58700A5214F7D850052CFE7 /* CurrentWeather.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				D51C1466214F797E00A4E7A6 /* ViewController.swift in Sources */,
 				D51C1464214F797E00A4E7A6 /* AppDelegate.swift in Sources */,
 				D51C14A1214F7A1B00A4E7A6 /* Extras.swift in Sources */,
+				D58700A6214F7D850052CFE7 /* CurrentWeather.swift in Sources */,
 				D51C146C214F797E00A4E7A6 /* Weather_Forecast.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
